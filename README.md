@@ -185,7 +185,7 @@ Derived graphs:
     (nodes (mapped-by #(+ 10 %) g))
     => #{11 12 13 14 15 16 17 18 19}
 
-    ; Subgraphs of g
+    ; Subgraphs of dg
     (edges (nodes-filtered-by #{1 2 3 5} dg))
     => ([1 2] [2 1] [2 3] [3 2])
 
